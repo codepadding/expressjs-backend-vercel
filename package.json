@@ -1,0 +1,28 @@
+{
+  "name": "expressjs-backend-vercel",
+  "version": "1.0.0",
+  "description": "Express.js backend for Vercel",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/index.js",
+    "build": "echo 'No build step required'"
+  },
+  "keywords": [
+    "express",
+    "vercel",
+    "serverless"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "vercel": "^34.0.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
+
