@@ -4,9 +4,11 @@
   "description": "Express.js backend for Vercel",
   "main": "api/index.js",
   "scripts": {
-    "dev": "vercel dev",
-    "start": "node api/index.js",
-    "build": "echo 'No build step required'"
+    "dev": "node init && npx vercel dev",
+    "start": "node init && node api/index.js",
+    "build": "node init && echo 'No build step required'",
+    "deploy": "npx vercel",
+    "deploy:prod": "npx vercel --prod"
   },
   "keywords": [
     "express",
@@ -25,4 +27,3 @@
     "node": ">=18.x"
   }
 }
-
