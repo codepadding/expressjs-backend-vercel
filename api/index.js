@@ -22,7 +22,7 @@ app.use((req, res, next) => {
 // Health check endpoint
 app.get('/', (req, res) => {
   res.json({ 
-    message: 'Express.js API is running on Vercel',
+    message: 'Express.js API is running on Vercel Updated',
     timestamp: new Date().toISOString()
   });
 });
